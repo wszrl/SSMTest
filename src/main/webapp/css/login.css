@@ -1,0 +1,58 @@
+html{
+    background-image:url("../images/bg.jpg");
+    width: 1200px;
+    height: 600px;
+}
+.log_form{
+    position: absolute;
+    background-color: #3498DB;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+
+}
+form{
+    margin: 10px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+form div{
+    margin-top: 20px;
+}
+form div .error{
+    display: none;
+}
+form #msg input{
+    border-radius: 5px;
+    width: 250px;
+}
+.code input{
+    width: 80px;
+}
+#vertify_code{
+    height: 40px;
+    background-color: red;
+    margin-left: 50px;
+    display: inline;
+}
+.submit{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 30px;
+    background-color: #71dd8a;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 160px;
+    height: 25px;
+    border-radius: 3px;
+}
+#information {
+    margin-left: 160px;
+    margin-top: 10px;
+}
+#information a{
+   color: red;
+}
